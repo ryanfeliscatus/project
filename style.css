@@ -1,0 +1,158 @@
+
+
+.coat_of_arms {
+  width: 10%;
+}
+
+.google-map {
+  padding-bottom: 30%;
+  padding-right: 0%;
+  position: relative;
+  background-color: #1E4256;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+#contact-address-map {
+  margin: 10%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.icon-image {
+  background: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.services {
+  background-color: #1E4256;
+  color: white;
+  margin: 5% 10% 5% 10%;
+}
+
+.latest-news {
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.news-item {
+  border-radius: 10px;
+  padding: 0;
+  margin: 10px;
+}
+
+.news-header {
+  display: flex;
+  height: 70px;
+  border-bottom: solid 1px lightgrey;
+}
+
+.news-date {
+  border-right: solid 1px lightgray;
+  flex: 2;
+  padding-top: 20px;
+}
+
+.news-title {
+  flex: 8;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.news-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 0 0 10px 10px;
+}
+
+.news-image img {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  margin: 0;
+}
+
+.news-day, .news-month {
+  line-height: 10px;
+  display: block;
+}
+
+.newsletter-sign-up, .contact-form {
+  background-color: #1E4256;
+  padding: 5% 10% 5% 10%;
+}
+
+
+
+.sign-up {
+  margin: 0 5% 0 5%
+}
+
+.bg-image { 
+  position: relative; 
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url('clevedon_pier.jpg');
+  background-size: cover;
+}
+
+.bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+.see-more {
+  border: solid 1px #1E4256;
+}
+
+.see-more:hover {
+  background-color: #1E4256;
+  color: white;
+  text-decoration: none;
+}
